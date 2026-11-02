@@ -4,3 +4,7 @@
 def test_ambiente():
     # Sempre passa: confirma que o pytest está rodando
     assert True
+
+def test_soma_simples():
+    # Alteração só para gerar o pull request
+    assert 1 + 1 == 2
